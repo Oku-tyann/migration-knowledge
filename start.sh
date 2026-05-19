@@ -67,14 +67,25 @@ sleep 15
 # ── パイプライン実行 ──────────────────────────────────────
 
 RAW="$BASE_DIR/shared/raw/${DATE}_raw.md"
-if [ ! -f "$RAW" ]; then
-    log "RAWファイルが見つかりません: $RAW"
-    log "サンプルを使用します..."
+
+# 複数クラウドエージェントのrawファイルを統合
+log "RAWファイルを統合中..."
+{
+    echo "# 海外移住 統合RAWデータ — ${DATE}"
+    echo ""
+    for f in "$BASE_DIR/shared/raw/${DATE}_raw_"*.md; do
+        [ -f "$f" ] && cat "$f" && echo ""
+    done
+} > "$RAW"
+
+if [ ! -s "$RAW" ]; then
+    log "RAWファイルが空です。サンプルを使用します..."
     cp "$BASE_DIR/shared/sample_raw.md" "$RAW" 2>/dev/null || {
-        log "Error: RAWファイルも sample_raw.md もありません。クラウドエージェントの実行を確認してください。"
+        log "Error: RAWファイルも sample_raw.md もありません。"
         exit 1
     }
 fi
+log "RAW統合完了: $(wc -l < "$RAW") 行"
 
 # Step 1: Summarizer
 ./agent_send.sh summarizer "$(cat << MSG

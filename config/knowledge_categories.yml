@@ -2,7 +2,7 @@ categories:
   - id: daily_report
     name: "00_毎日レポート"
     description: "毎日の海外移住情報をまとめた総合レポート"
-    path: "知識/00_毎日レポート"
+    path: "移住tips/00_毎日レポート"
     priority: 1
     keywords:
       - "今日の海外移住ニュース"
@@ -14,7 +14,7 @@ categories:
   - id: country_comparison
     name: "01_国別比較"
     description: "タイ・ドバイ・ポルトガル・マルタ等の移住先比較"
-    path: "知識/01_国別比較"
+    path: "移住tips/01_国別比較"
     priority: 2
     keywords:
       - "移住先比較"
@@ -27,7 +27,7 @@ categories:
   - id: visa
     name: "02_ビザ・在留資格"
     description: "各国のビザ種別・取得条件・更新・永住権・パスポート"
-    path: "知識/02_ビザ・在留資格"
+    path: "移住tips/02_ビザ・在留資格"
     priority: 3
     keywords:
       - "ビザ"
@@ -44,7 +44,7 @@ categories:
   - id: tax
     name: "03_税制・租税条約"
     description: "各国の税制・租税条約・183日ルール・日本との関係"
-    path: "知識/03_税制・租税条約"
+    path: "移住tips/03_税制・租税条約"
     priority: 4
     keywords:
       - "税制"
@@ -62,7 +62,7 @@ categories:
   - id: cost_of_living
     name: "04_生活コスト・住居"
     description: "家賃・食費・交通・医療・学費などの生活コスト比較"
-    path: "知識/04_生活コスト・住居"
+    path: "移住tips/04_生活コスト・住居"
     priority: 5
     keywords:
       - "生活費"
@@ -77,7 +77,7 @@ categories:
   - id: corporate_banking
     name: "05_法人・銀行口座"
     description: "海外法人設立・銀行口座開設・送金・決済手段"
-    path: "知識/05_法人・銀行口座"
+    path: "移住tips/05_法人・銀行口座"
     priority: 6
     keywords:
       - "法人設立"
@@ -93,7 +93,7 @@ categories:
   - id: healthcare
     name: "06_医療・保険"
     description: "各国の医療水準・海外保険・病院・緊急時対応"
-    path: "知識/06_医療・保険"
+    path: "移住tips/06_医療・保険"
     priority: 7
     keywords:
       - "医療"
@@ -108,7 +108,7 @@ categories:
   - id: safety_geopolitics
     name: "07_治安・地政学"
     description: "犯罪率・政治リスク・自然災害・日本人コミュニティ"
-    path: "知識/07_治安・地政学"
+    path: "移住tips/07_治安・地政学"
     priority: 8
     keywords:
       - "治安"
@@ -123,7 +123,7 @@ categories:
   - id: bangkok
     name: "08_バンコク深掘り"
     description: "バンコクの住むエリア・交通・生活・日本人向け情報"
-    path: "知識/08_バンコク深掘り"
+    path: "移住tips/08_バンコク深掘り"
     priority: 9
     keywords:
       - "バンコク"
@@ -139,7 +139,7 @@ categories:
   - id: dubai
     name: "09_ドバイ深掘り"
     description: "ドバイの法人設立・フリーゾーン・居住エリア・生活"
-    path: "知識/09_ドバイ深掘り"
+    path: "移住tips/09_ドバイ深掘り"
     priority: 10
     keywords:
       - "ドバイ"
@@ -155,7 +155,7 @@ categories:
   - id: portugal_malta
     name: "10_ポルトガル・マルタ"
     description: "EU圏拠点としてのポルトガル・マルタのビザ・税制・生活"
-    path: "知識/10_ポルトガル・マルタ"
+    path: "移住tips/10_ポルトガル・マルタ"
     priority: 11
     keywords:
       - "ポルトガル"
@@ -170,7 +170,7 @@ categories:
   - id: glossary
     name: "99_用語集"
     description: "海外移住・国際税務・ビザ関連用語の辞書"
-    path: "知識/99_用語集"
+    path: "移住tips/99_用語集"
     priority: 99
     keywords:
       - "用語"
